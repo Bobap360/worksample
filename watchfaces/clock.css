@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+#clock {
+	overflow: hidden;
+	display:inline-block;
+	position:relative;
+	width: 800px;
+	height:800px;
+	margin:auto;
+}
+
+#buttonBar{
+	position:absolute;
+	width: 300px;
+	text-align:center;
+	margin-left:250px;
+	bottom:0;
+}
+
+.button {
+	display:inline-block;
+	height: 38px;
+	width: 38px;
+	cursor: pointer;
+}
+
+#nextBtn {
+	margin-left:75px;
+}
+
+#lastBtn {
+	margin-right:75px;
+}
+
+*:hover > .st2 {
+	fill:#aaa;
+}
+
+*:hover > .st1, *:hover > .st0 {
+	stroke: #aaa;
+}
+
+.st2 {
+	fill: #ccc;
+}
+
+.st1 {
+	stroke:#ccc;
+	stroke-width:4;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+	fill:none;
+}
+
+.st0 {
+	fill:none;
+	stroke:#ccc;
+	stroke-width:25;
+	stroke-linecap:round;
+	stroke-miterlimit:10;
+}
+
+#home {
+	position: absolute;
+	left: 0px;
+}
+
+#speedCover {
+	left:0;
+	visibility: hidden;
+	opacity: 0.75;
+}
+
+#uiCover {
+	right:0;
+	visibility: hidden;
+	opacity: 0.75;
+}
+
+.cover {
+	bottom:0;
+	position: absolute;
+	width: 140px;
+	height: 38px;
+	background-color: #fff;
+}
+
+#speed {
+	position: absolute;
+	bottom:0;
+	left:0;
+	text-align:center;
+	overflow: hidden;
+	width: 140px;
+	height: auto;
+}
+
+#ui {
+	position: absolute;
+	bottom:0;
+	right:0;
+	overflow:hidden;
+	width: 140px;
+	height: 38px;
+}
+
+#tickbox{
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	border: 1px solid #ccc; 
+	margin-left: 7px;
+}
+
+*:hover > #tickHover {
+	opacity:0.25;
+}
+
+#tickHover{
+	position:absolute;
+	height: 14px;
+	width: 14px;
+	background-color:black;
+	opacity:0.0;
+	margin: 5px;
+}
+
+#tickFill {
+	position:absolute;
+	height: 14px;
+	width: 14px;
+	background-color:#fff;
+	margin: 5px;
+}
+
+.text {
+	display:inline-block;
+	font-family: Lucida Fax;
+	font-size: 16px;
+	color:#ccc;
+	line-height:38px;
+	height:38px;
+}
+
+#increase {
+	float:right;
+}
+
+#decrease {
+	float:left;
+	visibility: hidden;
+}
+
+.border {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#container {
+	margin:25px;
+	position: relative;
+	text-align:center;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
+}
+
+#clockGroup {
+	display:inline-block;
+	width: 600px;
+}
+
+#none{
+	border:1px solid black;
+}
+
+#colorbox {
+	width: 300px;
+	margin:auto;
+	margin-top: 10px;
+}
+
+.clrbtn:hover {
+	color:#aaa;
+}
+
+.clrbtn{
+	display:inline-block;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.centerVertical{
+	position: absolute;
+ 	top: 50%;
+  	transform: translateY(-50%);
+}
+
+@font-face{
+    font-family: 'levenim';
+    src: url('levenim-mt.ttf'),
+	url('levenim-mt.eot');
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Watch Designs</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"> </script>
+<script src="clock.js"></script>
+
+<link rel="stylesheet" type="text/css" href="clock.css"/>
+
+<link rel="stylesheet" href="css/include.css">
+</head>
+<body>
+    <div id="container" class="flip">
+        <div id="clock">
+            <img id="background" class="border" src="img/2/d2bg.svg">
+            <img id="Hour" class="border " src="img/2/d2h.svg">
+            <img id="Minute" class="border " src="img/2/d2m.svg">
+            <img id="Second" class="border " src="img/2/d2s.svg">
+
+			<div id="home" class="button" onClick="goToIndex()">
+				<svg viewBox="0 0 43.63 43.63">
+					<path class="st2" d="M21.82,4c9.82,0,17.81,7.99,17.81,17.81s-7.99,17.81-17.81,17.81S4.01,31.64,4.01,21.81S11.99,4,21.82,4 M21.82,0
+						C9.79,0,0.01,9.79,0.01,21.81c0,12.03,9.79,21.81,21.81,21.81s21.81-9.79,21.81-21.81C43.63,9.78,33.83,0,21.82,0L21.82,0z"/>
+					<polyline class="st1" points="21.82,9.91 21.82,21.82 27.42,27.42 "/>
+				</svg>
+			</div>
+			
+            <div id="speed">
+                <div id="decrease" class="button" onclick="slower()">
+                    <svg viewBox="0 0 200 200">
+                        <line class="st0" x1="50" y1="100" x2="150" y2="100"/>
+                    </svg>
+                </div>
+                <div id="rate" class="text">1x</div>
+                <div id="increase" class="button" onclick="faster()">
+                    <svg viewBox="0 0 200 200">
+                        <line class="st0" x1="50" y1="100" x2="150" y2="100"/>
+                        <line class="st0" x1="100" y1="50" x2="100" y2="150"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="speedCover" class="cover"></div>
+            <div id="ui">
+                <div>
+                    <div id="tickbox" class="centerVertical" onClick="swapTick()">
+                        <div id="tickFill"></div>
+                        <div id="tickHover"></div>
+                    </div>
+                    <div id="tick" class="text">Tick</div>  
+                </div>
+            </div>
+            <div id="uiCover" class="cover"></div>
+        </div>
+    </div>
+	
+    <div id="designs">
+		<div id="announcement">Select a design to see it in action</div>
+         <div>
+			<img id="d19" onclick="loadClock(this)" src="img/thumb_design_19.png"> 
+			<img id="cities" onclick="loadPage(this)" src="img/thumb_cities.png"> 
+        </div>
+		<div>
+            <img id="d2" onclick="loadClock(this)" src="img/thumb_design_2.png">
+            <img id="d5" onclick="loadClock(this)" src="img/thumb_design_5.png">
+            <img id="d8" onclick="loadClock(this)" src="img/thumb_design_8.png">
+			<img id="d18" onclick="loadClock(this)" src="img/thumb_design_18.png"> 
+        </div>
+        <div>
+            <img id="d11" onclick="loadClock(this)" src="img/thumb_design_11.png"> 
+            <img id="d12" onclick="loadClock(this)" src="img/thumb_design_12.png"> 
+            <img id="d13" onclick="loadClock(this)" src="img/thumb_design_13.png"> 
+			<img id="d17" onclick="loadClock(this)" src="img/thumb_design_17.png"> 
+        </div>
+    </div>
+</body>
+</html>
