@@ -1,0 +1,10 @@
+<svg id="Middle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <style type="text/css">
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,0V1024H1024V0H0ZM512,782.45c-149.37,0-270.45-121.09-270.45-270.45S362.63,241.55,512,241.55,782.45,362.63,782.45,512,661.37,782.45,512,782.45Z"/>
+</svg>
