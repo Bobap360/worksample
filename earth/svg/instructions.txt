@@ -1,0 +1,44 @@
+SVG Earth
+
+There are two technical hurdles: gradients and clipping/masking.
+Included are workarounds for both.
+
+Files that use gradients are drop.svg, light.svg, and inner.svg
+The "-fill" versions should load without issue. 
+The gradients are darker than the fills.
+
+Load the SVG files back to front
+
+0 - drop.svg
+1 - land-back.svg
+2 - earth.svg
+3 - land.svg
+4 - light.svg
+5 - inner.svg
+
+Translate the "land" and "land-back" files in opposite directions at the same rate.
+HTML animation is on a 10 second loop. The scrolling svg needs to wrap. 
+An alternative to wrapping is to load a second copy next to the first and scroll 
+together. When the second copy reaches the starting position of the first, reset 
+both copies to their starting positions. Loop indefinitely.
+
+"land-back" is a reflection of "land". If "land" can be reflected by the program, 
+"land-back" is unnecessary. The "land" files have the same width and should align 
+properly to the vertical center of the other files, if problems occur the sq-land 
+files are the same size as the rest.
+
+The fade of the back continents is determined by the opacity of earth.svg which 
+is currently set at 80%.
+
+"light" and "inner" are separate files so they can be turned on/off or substituted 
+as needed. They could easily be combined into a single file. If the mask.svg is 
+being used, it could also be added to the same file since all three are static on 
+top of the rest. To add the files to each other, just copy the code between, but not 
+including, the <svg> and </svg> tags. Then paste the code between the svg tags of the other 
+file. SVG renders from back to front, so later tags render on top.
+
+Either mask.svg or earth.svg should be able to determine clipping/masking or,
+alternatively, just load mask.svg on top with a fill that matches the background 
+color. Furthermore, if the other clipping options do not work, sq-clip can be used 
+to determine a rectangular clip box around earth.svg. CSS uses a border-radius value 
+of 50% (border-radius="50%") to turn this rect into a circle.

@@ -1,0 +1,22 @@
+<svg id="Effects" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <style type="text/css">
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="510.15" cy="214.08" r="288.38" gradientTransform="translate(0 57.91) scale(1 0.96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.02" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="0.12" stop-color="#fff" stop-opacity="0.66"/>
+      <stop offset="0.23" stop-color="#fff" stop-opacity="0.48"/>
+      <stop offset="0.34" stop-color="#fff" stop-opacity="0.33"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.21"/>
+      <stop offset="0.57" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="0.69" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="0.83" stop-color="#fff" stop-opacity="0.01"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse id="Light" class="cls-1" cx="512" cy="402.25" rx="194.71" ry="146.25"/>
+</svg>
