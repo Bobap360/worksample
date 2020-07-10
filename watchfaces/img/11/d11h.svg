@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Hour" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 720" style="enable-background:new 0 0 720 720;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.05;}
+	.st1{fill:#C8C8C8;}
+</style>
+<g id="Drop_2_5_" class="st0">
+	<path d="M362.27,197c2.76,0,5,2.24,5,5v157.74h-15V202c0-2.76,2.24-5,5-5H362.27 M362.27,193h-5c-4.96,0-9,4.04-9,9v157.74v4h4h15
+		h4v-4V202C371.27,197.04,367.23,193,362.27,193L362.27,193z"/>
+</g>
+<g id="Drop_1_5_" class="st0">
+	<path d="M362.27,197c2.76,0,5,2.24,5,5v157.74h-15V202c0-2.76,2.24-5,5-5H362.27 M362.27,195h-5c-3.86,0-7,3.14-7,7v157.74v2h2h15
+		h2v-2V202C369.27,198.14,366.13,195,362.27,195L362.27,195z"/>
+</g>
+<path id="Base_7_" class="st1" d="M352.27,202v157.74h15V202c0-2.76-2.24-5-5-5h-5C354.5,197,352.27,199.24,352.27,202z"/>
+</svg>
