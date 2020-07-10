@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+#clock {
+	display:inline-block;
+	position:relative;
+	width: 600px;
+	height:600px;
+	margin:auto;
+}
+
+#buttonBar{
+	position:relative;
+	width: 500px;
+	text-align:center;
+	margin:0 auto;
+	margin-top: -20px;
+}
+
+.bgBtn{
+	fill:none;
+	stroke:#000000;
+	stroke-width:40;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+
+*:hover > .bgBtn{
+	stroke:#888888;
+}
+
+#frontButton {
+	margin-left: 50px;
+}
+
+#backButton {
+	margin-right:50px;
+}
+
+#frontButton, #backButton {
+	display: inline-block;
+	height: 64px;
+	padding: 5px;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+#seconds, #minutes, #hours{
+	font-family:Lucida Fax;
+	position: absolute;
+	text-align:center;	
+}
+
+#seconds {
+	font-size: 29px;
+	height: 29px;
+	width: 29px;
+}
+
+#minutes {
+	font-size: 45px;
+	height: 45px;
+	width: 45px;
+}
+
+#hours {
+	font-size: 66px;
+	height: 66px;
+	width: 66px;
+}
+
+#border {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#fisheye, #fisheyeToggle, .colorButton{
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+}
+
+#fisheyeToggle:hover, .colorButton:hover{
+	color: #888888;
+}
+
+#filterBar {
+	position:absolute;
+	display:inline-block;
+	width: 60px;
+	height: 600px;
+	margin-top:0px;
+}
+
+.colorButton {
+	height: 38px;
+	width: 38px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 2px solid black;
+}
+
+.fishBtn {
+	height: 40px;
+	width: 40px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background:url(distortionIconFlat.svg);
+}
+
+#container {
+	position: relative;
+	text-align:center;
+}
+
+#clockGroup {
+	display:inline-block;
+	width: 600px;
+}
+
+#none{
+	border:1px solid black;
+}
+
+#divider {
+	height: 2px;
+	width: 50px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color: rgb(200,200,200);
+	display:inline-block;
+	text-align:center;
+}
+
+.fishBtn:hover {
+	opacity:0.6;
+}
+
+.colorButton:hover {
+    transform: scale(1.1);
+	border-color:rgba(0,0,0,0.3);
+}
+
+.centerVertical{
+	position: relative;
+ 	top: 50%;
+  	transform: translateY(-50%);
+}
+
+#background {stroke-width:0;stroke-miterlimit:10;}
+
+.gray .st0{fill:#E7E8E9;stroke:#E7E8E9;}
+.gray .st1{fill:#D1D3D4;stroke:#D1D3D4;}
+.gray .st2{fill:#BDBEC0;stroke:#BDBEC0;}
+.gray .st3{fill:#A7A9AC;stroke:#A7A9AC;}
+
+.blue .st0{fill:#DDE7F3;stroke:#DDE7F3;}
+.blue .st1{fill:#BDD1E8;stroke:#BDD1E8;}
+.blue .st2{fill:#9FBCDD;stroke:#9FBCDD;}
+.blue .st3{fill:#80A7D2;stroke:#80A7D2;}
+
+.red .st0{fill:#F1DFDF;stroke:#F1DFDF;}
+.red .st1{fill:#E4C0C0;stroke:#E4C0C0;}
+.red .st2{fill:#D8A4A4;stroke:#D8A4A4;}
+.red .st3{fill:#CC8787;stroke:#CC8787;}
+
+.green .st0{fill:#DFF1DF;stroke:#DFF1DF;}
+.green .st1{fill:#C0E4C0;stroke:#C0E4C0;}
+.green .st2{fill:#A4D8A4;stroke:#A4D8A4;}
+.green .st3{fill:#87CC87;stroke:#87CC87;}
+
+.yellow .st0{fill:#F2F0DE;stroke:#F2F0DE;}
+.yellow .st1{fill:#E6E2BE;stroke:#E6E2BE;}
+.yellow .st2{fill:#DBD6A1;stroke:#DBD6A1;}
+.yellow .st3{fill:#D0C983;stroke:#D0C983;}
+
+.purple .st0{fill:#E2DFF1;stroke:#E2DFF1;}
+.purple .st1{fill:#C6C0E4;stroke:#C6C0E4;}
+.purple .st2{fill:#ACA4D8;stroke:#ACA4D8;}
+.purple .st3{fill:#9287CC;stroke:#9287CC;}
+
+.pink .st0{fill:#F1DFF0;stroke:#F1DFF0;}
+.pink .st1{fill:#E4C0E1;stroke:#E4C0E1;}
+.pink .st2{fill:#D8A4D4;stroke:#D8A4D4;}
+.pink .st3{fill:#CC87C7;stroke:#CC87C7;}
+
+.orange .st0{fill:#F1E7DF;stroke:#F1E7DF;}
+.orange .st1{fill:#E4d0C0;stroke:#E4d0C0;}
+.orange .st2{fill:#D8BBA4;stroke:#D8BBA4;}
+.orange .st3{fill:#CCA687;stroke:#CCA687;}
+
+.st4{fill:none;stroke:#010101;stroke-width:3;stroke-miterlimit:10;}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #B82E25;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width:140px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #9c2b24;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	width:140px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align:center;
+	overflow:scroll;
+	max-height:180px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content div:hover {
+	background-color: #f1f1f1;
+	cursor:pointer;
+	}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

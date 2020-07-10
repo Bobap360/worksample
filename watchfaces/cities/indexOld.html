@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cities</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"> </script>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<html manifest="cache"></html>
+</head>
+
+<body>
+<div id="container">
+
+    <!--<div id="clock">
+        <object type="image/svg+xml" id="background" data="Cities_Tokyo.svg"/>
+    </div>-->
+    <div id="clock">
+        <img id="background" src="">
+        <img id="border" src="">
+    </div>
+    <div id="buttonBar">
+    	<svg version="1.1" id="backButton" onclick="lastBg()" class="rotate180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 205.877 308.246" style="enable-background:new 0 0 205.877 308.246;" xml:space="preserve">
+			<polyline class="st0" points="20,20 185.877,154.123 20,288.246 "/>
+		</svg>
+        
+        <div id="fisheyeToggle" onclick="switchStyle()">Fisheye Off</div>
+        
+        <svg version="1.1" id="frontButton" onclick="nextBg()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 205.877 308.246" style="enable-background:new 0 0 205.877 308.246;" xml:space="preserve">
+			<polyline class="st0" points="20,20 185.877,154.123 20,288.246 "/>
+		</svg>
+    </div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# 2016-07-23 v0.3
+/Cities_Tokyo.svg
+/Cities_Paris.svg
+/Cities_San_Francisco.svg
+/Cities_Cairo.svg
+
+NETWORK
+
+FALLBACK

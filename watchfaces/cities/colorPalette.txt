@@ -1,0 +1,49 @@
+Fisheye Amount - 25%
+
+Blue
+0 - # DDE7F3
+1 - # BDD1E8
+2 - # 9FBCDD
+3 - # 80A7D2
+
+Red
+0 - # F1DFDF
+1 - # E4C0C0
+2 - # D8A4A4
+3 - # CC8787
+
+Green
+0 - # DFF1DF
+1 - # C0E4C0
+2 - # A4D8A4
+3 - # 87CC87
+
+Yellow
+0 - # F2F0DE
+1 - # E6E2BE
+2 - # DBD6A1
+3 - # D0C983
+
+Purple
+0 - # E2DFF1
+1 - # C6C0E4
+2 - # ACA4D8
+3 - # 9287CC
+
+Pink
+0 - # F1DFF0
+1 - # E4C0E1
+2 - # D8A4D4
+3 - # CC87C7
+
+Orange
+0 - # F1E7DF
+1 - # E4d0C0
+2 - # D8BBA4
+3 - # CCA687
+
+Gray
+0 - # E7E8E9
+1 - # D1D2D4
+2 - # BDBEC0
+3 - # A7A9AC

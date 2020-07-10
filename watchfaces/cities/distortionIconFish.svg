@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Grids" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 67 67" style="enable-background:new 0 0 67 67;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<path id="Fish_50" class="st0" d="M1.5,33.5c5.33,0,58.67,0,64,0 M1.5,49.5c9.33,6,54.67,6,64,0 M1.5,17.5c9.33-6,54.67-6,64,0
+	 M33.5,1.5c0,5.33,0,58.67,0,64 M17.5,1.5c-6,9.33-6,54.67,0,64 M49.5,1.5c6,9.33,6,54.67,0,64 M65.5,65.5h-64v-64h64V65.5z"/>
+</svg>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cities</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"> </script>
+<script src="svg-injector.min.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+<div id="container">
+    <div id="clock">
+        <img id="background" class="inject-me">
+        <img id="border" src="Cities_Border.svg">
+    </div>
+    <div id="filterBar">
+    	<div class="centerVertical">
+            <div id="blue" class="blue colorButton" style="background-color:#80A7D2;" onClick="switchColor(this)"> </div>
+            <div id="red" class="red colorButton" style="background-color:#CC8787;" onClick="switchColor(this)"> </div>
+            <div id="green" class="green colorButton" style="background-color:#87CC87;" onClick="switchColor(this)"> </div>
+            <div id="yellow" class="yellow colorButton" style="background-color:#D0C983;" onClick="switchColor(this)"> </div>
+            <div id="purple" class="purple colorButton" style="background-color:#9287CC;" onClick="switchColor(this)"> </div>
+            <div id="pink" class="pink colorButton" style="background-color:#CC87C7;" onClick="switchColor(this)"> </div>
+            <div id="orange" class="orange colorButton" style="background-color:#CCA687;" onClick="switchColor(this)"> </div>
+            <div id="gray" class="gray colorButton" style="background-color:#A7A9AC;transform:scale(0.9);border-color:rgba(0,0,0,0.3);" onClick="switchColor(this)"> </div>
+            <div id="divider"></div>
+            <div id="fisheye" class="fishBtn" onClick="switchStyle()"> </div>
+    	</div>
+    </div>
+    <div id="buttonBar">
+    	<svg version="1.1" id="backButton" onclick="lastBg()" class="rotate180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 205.877 308.246" style="enable-background:new 0 0 205.877 308.246;" xml:space="preserve">
+			<polyline class="bgBtn" points="20,20 185.877,154.123 20,288.246 "/>
+		</svg>
+        
+    <div class="dropdown">
+        <button id="currentCity" onclick="dropdown()" class="dropbtn">Cairo</button>
+        <div id="myDropdown" class="dropdown-content">
+        </div>
+    </div>
+        
+        <svg version="1.1" id="frontButton" onclick="nextBg()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 205.877 308.246" style="enable-background:new 0 0 205.877 308.246;" xml:space="preserve">
+			<polyline class="bgBtn" points="20,20 185.877,154.123 20,288.246 "/>
+		</svg>
+    </div>
+</div>
+</body>
+</html>
