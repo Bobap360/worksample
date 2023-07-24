@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>221b Baker Street (2014)</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"> </script>
+		<script src="clues.js"> </script>
+		<link rel="stylesheet" type="text/css" href="dark.css" />
+	</head>
+
+	<body>
+		<div id="inputGroup">
+			<div id="inputFade" class="fade"></div>
+			<div id="label" class="center">Enter Clue Number</div>
+			<div id="formGroup" class="center">
+				<input type="number" id="fclue" >
+				<button type="button" onclick="checkClue()">Submit</button>
+			</div>
+		</div>
+		
+		<div id="clueGroup">
+			<div id="clueFade" class="fade"></div>
+			<div id="readout" class="center"></div>
+			
+			<div id="progressBar">
+				<div id="progressFill"></div>
+			</div>
+		</div>
+	</body>
+</html>
