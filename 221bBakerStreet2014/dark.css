@@ -53,13 +53,14 @@ input {
 }
 
 #label{
-	font-size:42px;
+	font-size:48px;
 	margin-bottom:10px;
 }
 
 #readout{
 	margin-bottom: 10px;
-	width: 1024px;
+	width: 900px;
+	font-size:42px;
 }
 
 #formGroup{
@@ -104,7 +105,7 @@ input {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 1024px;
+	width: 900px;
 }
 
 #inputGroup{
