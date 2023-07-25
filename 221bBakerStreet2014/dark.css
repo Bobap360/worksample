@@ -4,14 +4,14 @@
 body{
 	background-color: #444444;
 	color: white;
-	font-size:24px;
+	font-size:48px;
 }
 
 div#fade {
 	background: -webkit-linear-gradient(rgba(68, 68, 68, 0) 0%, rgba(68, 68, 68, 1) 98%);
 }
 
-div.tooltip, div.button, div.inventory, .market, .sell, .buy, div.tackleBox {
+div.tooltip, div.button {
 	border: 1px solid white;
 }
 
@@ -33,12 +33,18 @@ div.dark {
 
 input {
 	text-align: center;
+	width: 200px;
+	height: 64px;
+	font-size:48px;
+	color: white;
+	background-color: #606060;
+	border: 2px solid #383838;
+	margin-bottom: -5px;
 }
 
 .center {
   margin: auto;
   width: 50%;
-  padding: 5px;
   text-align: center;
 }
 
@@ -46,21 +52,30 @@ input {
 	width: 100%;
 }
 
+#label{
+	font-size:42px;
+	margin-bottom:10px;
+}
+
+#readout{
+	margin-bottom: 10px;
+	width: 1024px;
+}
+
 #formGroup{
-	width: 200px;
+	width: 400px;
 }
 
 #progressBar {
-  width: 200px;
-  margin: auto;
-  height: 12px;
+  width: 400px;
+  height: 24px;
   background-color: #606060;
 }
 
 #progressFill {
   height: 100%;
   text-align: right;
-  line-height: 12px; /* same as #progressBar height if we want text middle aligned */
+  line-height: 24px; /* same as #progressBar height if we want text middle aligned */
   width: 100%;
   background-color: white;
   box-sizing: border-box;
@@ -89,6 +104,7 @@ input {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	width: 1024px;
 }
 
 #inputGroup{
@@ -97,6 +113,13 @@ input {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+#clueSubmit{
+	width:150px;
+	height:30px;
+	font-size:16px;
+	font-weight: bold;
 }
 
 /* Chrome, Safari, Edge, Opera */
